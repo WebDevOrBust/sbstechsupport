@@ -2,7 +2,7 @@
   "name": "sbstechsupport",
   "version": "1.0.0",
   "description": "my portfolio site",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "lite": "lite-server",
     "start": "npm run lite",
