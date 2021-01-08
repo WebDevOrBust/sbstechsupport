@@ -1,83 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <head>
+        <!-- Required meta tags always come first -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-
+    
         <!-- Additional CSS must be placed after Bootstrap CSS -->
         <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
         <script src="https://kit.fontawesome.com/52cd7d33fc.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
         <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">     
         <link rel="stylesheet" href="css/styles.css" />
-    <title>SBS: Small Business Solutions</title>
-</head>
+    
+        <title>Small Business Solutions</title>
+    </head>
 <body>
-    <nav class="nav navbar-dark ">
-        <div class="container">
-            <ul class="navbar-nav mx-auto all">
-                <li class="nav-item"><a class="nav-link text-white" href="#"><i class="fas fa-envelope-open-text"></i> REQUEST A QUOTE</a></li>
-                <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-headset"></i> REMOTE SUPPORT</a></li>
-                <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-ticket-alt"></i> OPEN A TICKET</a></li>
-            <ul>
+    <div class="nav_secondary ">
+        <ul class="nav nav_secondary justify-content-center navbar-dark">
+            <li class="nav-item"><a class="nav-link text-white" href="#"><i class="fas fa-envelope-open-text"></i> REQUEST A QUOTE</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#"><i class="fas fa-headset"></i> REMOTE SUPPORT</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#"><i class="fas fa-ticket-alt"></i> OPEN A TICKET</a></li>
+        </ul>
+    </div>
+
+    <nav class="nav ">
+        <div class=" ml-auto">
+                <ul class="nav ">
+                    <li class="nav-item active"><a class="nav-link" href="#"> Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#"> Accounting</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#"> Human Resources</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#">Information Technology</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#"> Login</a></li>
+                </ul>
+            </div> 
         </div>       
     </nav>
 
-<div class="test">
-    <ul class="nav justify-content-center">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Active</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
-      </ul>
+   <div class="heading image">
+        <div class="heading container-fluid p-0">
+            <img class="img-fluid" src="/img/boardroom.png">
+                <div class="textBox col-5 h-75 ">
+                    <h1 class="pb-3">Enterprise Solutions for Small Business</h1>
+                    <p class="pb-3" >Hire a Trusted  Support Specialist at SBS - The Leading Online Talent Solution.  Grow Your Team Quickly. 90% of Customers Rehire. Secure Payments.</p>
+                    <button class="btn btn-lg btn-dark">Email Us</button>
+                    <button class="btn btn-lg btn-dark">Call Now</button>
+                </div>
+            
+        </div>
+    </div>
+
+<section id="main mt-5">
+    <div class="container text-center py-4 ">
+        <div class="title">
+            <h1>Our Services</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="row card-deck mx-auto">
+            <div class="card col-md-4 p-3 border border-dark">
+               <div class="card-text-center">
+                   <img src="img/acct.jpg" alt="Accounting" class="card-img-top">
+                   <div class="card-body">
+                        <h5 class="card-title">Accounting</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <a href="#" class="btn btn-dark">More</a>
+                   </div>   
+                </div>
+            </div>
+            <div class="card col-md-4 p-3 border border-dark">
+                <div class="card-text-center">
+                    <img src="img/hr.jpg" alt="Human Resources" class="card-img-top">
+                    <div class="card-body">
+                         <h5 class="card-title">Human Resources</h5>
+                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                         <a href="#" class="btn btn-dark">More</a>
+                    </div>   
+                 </div>
+             </div>
+             <div class="card col-md-4 p-3 border border-dark">
+                <div class="card-text-center">
+                    <img src="img/IT.jpg" alt="Information Technology" class="card-img-top">
+                    <div class="card-body">
+                         <h5 class="card-title">Information Technology</h5>
+                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                         <a href="#" class="btn btn-dark">More</a>
+                    </div>   
+                 </div>
+             </div>
+        </div>
+    </div>
+</section>
+<!--- carousel-->
+
+<div class="middleImg">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner ">
+                <div class="carousel-item active">
+                    <img class="d-block img-fluid" src="/img/team_conf.jpg" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    <h2>Accounting</h2>
+                    <p class="p-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid et quos hic quaerat eaque. Repudiandae eveniet odio iste voluptatibus quia debitis iure praesentium! Numquam iste quasi quis, quibusdam voluptas natus? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid et quos hic quaerat eaque. Repudiandae eveniet odio iste voluptatibus quia debitis iure praesentium! Numquam iste quasi quis, quibusdam voluptas natus?</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block img-fluid "  src="/img/conf_room.jpg" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    <h2>Human Resources</h2>
+                    <p class="p-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid et quos hic quaerat eaque. Repudiandae eveniet odio iste voluptatibus quia debitis iure praesentium! Numquam iste quasi quis, quibusdam voluptas natus? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid et quos hic quaerat eaque. Repudiandae eveniet odio iste voluptatibus quia debitis iure praesentium! Numquam iste quasi quis, quibusdam voluptas natus?</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block img-fluid" src="/img/team.jpg" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    <h2>Information Technology</h2>
+                    <p class="p-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid et quos hic quaerat eaque. Repudiandae eveniet odio iste voluptatibus quia debitis iure praesentium! Numquam iste quasi quis, quibusdam voluptas natus? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid et quos hic quaerat eaque. Repudiandae eveniet odio iste voluptatibus quia debitis iure praesentium! Numquam iste quasi quis, quibusdam voluptas natus?</p>
+                    </div>
+                </div>
+
+            </div>
+    </div>
+   <!-- <img class="img-fluid max-width:100% height:50% " src="/img/team_conf.jpg">-->
 </div>
 
-<!--Navbar -->
-<nav class="navbar navbar-expand-sm navbar-dark sticky-top">
-    <div class="container">
-        <a class="navbar-brand" href="#"><img src="img/logo.png" height="30" width="30" /> </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="nucampNavbar ml-3">
-            <ul class="navbar-nav node_modules">
-                <li class="nav-item active"><a class="nav-link" href="#"> Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#"> Accounting</a></li>
-                <li class="nav-item"><a class="nav-link" href="#"> Human Resources</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Information Technology</a></li>
-            </ul>
-            <span class="navbar-text btn btn-primary">
-                <a role="button" data-toggle="modal" data-target="#loginModal">
-                    <i class="fa fa-sign-in"></i> Login
-                </a>
-            </span>
-        </div> 
-    </div>       
-</nav>
-<!-- Header / Jumbotron -->
 
-<!-- Cards -->
-
-  <!--Body -->
-
-<!-- Footer -->
+<div class="container mt-5">
+    <div class="sec_01 pb-3">
+        <h5 class="bg-dark">Accounting</h5>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid et quos hic quaerat eaque. Repudiandae eveniet odio iste voluptatibus quia debitis iure praesentium! Numquam iste quasi quis, quibusdam voluptas natus? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid et quos hic quaerat eaque. Repudiandae eveniet odio iste voluptatibus quia debitis iure praesentium! Numquam iste quasi quis, quibusdam voluptas natus?<span>MORE. . . </span></p>
+    </div>
+    <div class="sec_01 pb-3">
+        <h5 class="bg-dark">Human Resources</h5>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid et quos hic quaerat eaque. Repudiandae eveniet odio iste voluptatibus quia debitis iure praesentium! Numquam iste quasi quis, quibusdam voluptas natus? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid et quos hic quaerat eaque. Repudiandae eveniet odio iste voluptatibus quia debitis iure praesentium! Numquam iste quasi quis, quibusdam voluptas natus?<span>MORE. . . </span></p>
+    </div>
+    <div class="sec_01 " >
+        <h5 class="bg-dark">Information Technology</h5>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid et quos hic quaerat eaque. Repudiandae eveniet odio iste voluptatibus quia debitis iure praesentium! Numquam iste quasi quis, quibusdam voluptas natus? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid et quos hic quaerat eaque. Repudiandae eveniet odio iste voluptatibus quia debitis iure praesentium! Numquam iste quasi quis, quibusdam voluptas natus?<span>MORE. . . </span></p>
+    </div>
+</div>
+<!---REVIEW Why it's not working-->
+        <div class="site-footer container-fluid p-0">
+            <div class="container text-center">
+                <h1 class="display-5">Our Services</h1>
+                <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            
+            
+                    
+            </div>
 
 
+        </div>
 
-    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+<!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
-</htm
+</html>
