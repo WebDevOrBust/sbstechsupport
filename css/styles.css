@@ -69,7 +69,7 @@ section {
     padding: 20px 0;
 }
 
-.nav_secondary{
+.nav_secondary {
 background-color: #1E3E59;
 color: white;
 }
@@ -82,32 +82,56 @@ color: white;
 
 
 /* Footer */
-.footer{
+.footer {
     background: #152F4F;
     color:white;
-    
-    .links{
-      ul {list-style-type: none;}
-      li a{
+}
+
+.links ul {
+    list-style-type: none;
+}
+
+.links li a {
         color: white;
         transition: color .2s;
-        &:hover{
+        text-decoration:none;
+}      
+
+.links li a:hover {
           text-decoration:none;
           color:#4180CB;
-          }
-      }
-    }  
-    .about-company{
-      i{font-size: 25px;}
-      a{
+}
+
+.about-company i {
+    font-size: 25px;
+}
+      
+.about-company a {
         color:white;
         transition: color .2s;
-        &:hover{color:#4180CB}
-      }
-    } 
-    .location{
-      i{font-size: 18px;}
-    }
-    .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
-  }
+}
+
+ .about-company:hover {
+     color:#4180CB
+}
+ 
+.location i {
+    font-size: 18px;
+}
+
+.copyright p {
+    border-top:1px solid rgba(255,255,255,.1);
+} 
+
+/* Contact Us */
+form {
+    padding: 20px;
+    border: 1px solid darkblue;
+    border-radius: 25px;
+    background-color: #e4eaf2;
+}
+
+.contactlogo {
+    border-radius: 25px;
+}
 

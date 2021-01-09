@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags always come first -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    
+        <!-- Additional CSS must be placed after Bootstrap CSS -->
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+        <script src="https://kit.fontawesome.com/52cd7d33fc.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">     
+        <link rel="stylesheet" href="css/styles.css" />
+    
+        <title>Small Business Solutions</title>
+    </head>
+<body></body>
+    <div class="nav_secondary ">
+        <ul class="nav nav_secondary justify-content-center navbar-dark">
+            <li class="nav-item"><a class="nav-link text-white" href="contactus.html"><i class="fas fa-envelope-open-text"></i> REQUEST A QUOTE</a></li>
+            <li class="nav-item"><a class="nav-link text-white"  data-toggle="modal" data-target="#supportModal" href="#supportModal"><i class="fas fa-headset"></i> REMOTE SUPPORT</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="faq.html"><i class="fas fa-ticket-alt"></i> OPEN A TICKET</a></li>
+        </ul>
+    </div>
+
+    <nav class="nav">
+        <div class="pt-1" ><img src="/img/logo1.png"></div>
+        <div class="ml-auto">
+                <ul class="nav p-1">
+                    <li class="nav-item"><a class="nav-link" href="index.html"> Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#"> Accounting</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#"> Human Resources</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#">Information Technology</a></li>
+                    <li class="nav-item"><a class="btn btn-dark nav-link text-white" href="#"> Login</a></li>
+                </ul>
+            </div> 
+        </div>       
+    </nav>
+
+   
+
+  
+
+    <!--Header Image -->
+
+
+<div class="section">
+<!--Contact Us Body -->
+<div class="wrapper">
+        <div class="row container-fluid">
+            
+            <div class="headImage col-md-4">
+                <img class="img-fluid contactlogo" src="/img/contactus_md.jpg" width="100%">
+                <div class="m-15 mt-5">
+                    <h4>Please complete the Information below and we will have a member of our team contact you. </h4>
+                    <hr />
+                    <br>
+                </div>
+            </div>
+            <div class="col-md-8 row-content">
+            
+                <div class="col-md-10">
+                    <form class="p-10">
+                        <div class="form-group row">
+                            <label for="companyname" class="col-md-2 col-form-label">Company Name</label>
+                            <div class="col-md-10">
+                                <input type="text" class="form-control" id="companyname" name="companyname" placeholder="Company name" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="Name" class="col-md-2 col-form-label">Name</label>
+                            <div class="col-md-10">
+                                <input type="text" class="form-control" id="Name" name="Name" placeholder="First and Last Name" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="telephone" class="col-md-2 col-form-label">Telephone No.</label>
+                            <div class="col-5 col-md-7">
+                                <input type="tel" class="form-control" id="telephone" name="telephone" placeholder="Telephone" />
+                            </div>
+                            <div class="col-3">
+                                <input type="ext" class="form-control" name="ext" placeholder="Ext: 0000" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="email" class="col-md-2 col-form-label">Company email</label>
+                            <div class="col-md-10">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="name@yourcompany.com" />
+                            </div>
+                        </div>
+            
+                        <div class="form-group row">
+                            <label for="feedback" class="col-md-2 col-form-label">Comments</label>
+                            <div class="col-md-10">
+                                <textarea class="form-control" id="feedback" name="feedback" rows="8" placeholder="How can we help your business grow?"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col offset-md-2">
+                                How would you like us to contact you?
+                                <div class="form-check form-check-inline">
+                                    <input type="radio" class="form-check-input" id="contactPhone" name="contactRadios" value="phone" />
+                                    <label for="contactPhone" class="form-check-label">Phone</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input type="radio" class="form-check-input" id="contactEmail" name="contactRadios" value="email" />
+                                    <label for="contactEmail" class="form-check-label">Email</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="offset-md-2 col-md-10">
+                                <button type="submit" class="btn btn-dark">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+        </div>
+        </div>
+    </div>
+</div>
+<!---->
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="supportModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Remote Support</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <em>Remote access services are provided at your <strong>sole risk</strong>. You have requested the assistance of a Technical Support Representative through a remote connection to your computer. The Technical Support Representatives may download and use software, gather system data, take remote control of your computer and access or modify your computer settings. By accepting these terms, you hereby grant <strong>SBSTechsupport</strong> the right to connect to your computer, download and use software on your computer to gather system data, repair your computer, take remote control of your computer and change the settings on your computer while performing the services. Be sure to close any confidential or personal files that you may be working on before allowing remote access to your computer.</em> 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-dark">Connect</button>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- Modal-->
+<!--Footer-->
+    <div class="mt-5 pt-5 pb-5 footer">
+            <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-xs-12 about-company">
+                    <h2 class="text-white">Small Business Solutions</h2>
+                    <p class="pr-5 text-white-50">Connect with us on social media. We would love to hear from you. </p>
+                    <p><a href="#"><i class="fa fa-facebook-square mr-1"></i></a><a href="#"><i class="fa fa-linkedin-square"></i></a></p>
+                </div>
+        <div class="col-lg-3 col-xs-12 links">
+        <h4 class="mt-lg-0 mt-sm-3">Links</h4>
+                <ul class="m-0 p-0">
+                    <li>- <a href="#">Departments</a></li>
+                    <li>- <a href="#">About Us</a></li>
+                    <li>- <a href="#">Contact Us</a></li>
+                    <li>- <a href="#">Sales Office</a></li>
+                    <li>- <a href="#">Client Portal</a></li>
+                    <li>- <a href="#">Employee Portal</a></li>
+        </div>
+        <div class="col-lg-4 col-xs-12 location">
+                <h4 class="mt-lg-0 mt-sm-4">Location</h4>
+                <p>1 Apple Park Way in Cupertino, California, United States.</p>
+                <p class="mb-0"><i class="fa fa-phone mr-3"></i>(561) 954-2021</p>
+                <p><i class="fa fa-envelope-o mr-3"></i>info@sbstechsupport.com</p>
+        </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col copyright">
+                <p class=""><small class="text-white-50">© 2019. All Rights Reserved ~ SBS TechSupport.</small></p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

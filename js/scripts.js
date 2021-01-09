@@ -1,6 +1,7 @@
 $(function() {
     $(".carousel").carousel( { interval: newFunction(), pause: "false" } );
 
-function newFunction() {
+    function newFunction() {
         return 2000;
     }
+})
